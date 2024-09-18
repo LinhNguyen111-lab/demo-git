@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="website_level3A.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="logo.png" alt="Logo" class="logo"></a>
+        <div class="website_name">
+            <a href="#"><strong>WEBSITE NAME</strong></a>
+        </div>
+        <nav class="navbar"> 
+            <nav class= "main_menu">
+                <ul></ul>
+                    <li><a href="#">A</a></li>
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">D</a></li>
+                    <li><a href="#">E</a></li>
+                    <li><a href="#">
+                        MORE
+                        <img src="arrow-156117_1920.png" alt="" class="icon">
+                        </a>
+                        <ul class="sub_menu">
+                            <li><a href="#">A</a></li>
+                            <li><a href="#">B</a></li>
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">D</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <div class="toolnav">
+            <h1>Level 3A</h1>
+            
+    </div>
+
+    <form id="filter-form"></form>
+        <label for="criteria">tool1</label>
+        <select id="criteria" name="criteria">
+            <option value="temperature">Single region and single period:</option>
+            <option value="population">Single region and multiple periods:</option>
+        </select>
+    </form>
+    
+    <div class="header1">
+        <input type="text" placeholder="star years: 1990, 1920,...">
+        <input type="text" placeholder="length of year">
+        <input type="text" placeholder="enter regions: Australia, Us,...">
+        <button type="submit" class="btn btn-primary"> <a href="#">submit</a></button>
+    </div>
+
+    <form id="filter-form"></form>
+        <label for="criteria">tool2</label>
+        <select id="criteria" name="criteria">
+            <option value="both">Multiple regions and multiple periods:</option>
+        </select>
+    </form>
+
+    <div class="header1">
+        <input type="text" placeholder="region and start year">
+        <input type="text" placeholder="length of year">
+        <select class="regionType" >
+            <option value="both">City</option>
+            <option value="both">Country</option>
+            <option value="both">State</option> 
+        </select>
+        <button type="submit" class="btn btn-primary"> <a href="#">submit</a></button>
+    </div>
+
+    <div class="option">
+        <input type="text" placeholder="minimum temperature">
+        <input type="text" placeholder="maximum temperature">
+        <input type="text" placeholder="minimum population">
+        <input type="text" placeholder="maximum population">
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="container"></div>
+        <h1>Similarity Filter</h1>
+        <form id="filter-form">
+            <label for="criteria">Select similarity in terms of:</label>
+            <select id="criteria" name="criteria">
+                <option value="temperature">Average Temperature Alone</option>
+                <option value="population">Population Alone (for country only)</option>
+                <option value="both">Both Average Temperature and Population (for country only)</option>
+            </select>
+            <button type="submit">Apply Filter</button>
+        </form>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="site_map_footer">
+        <h2>Site map footer</h2>
+        <div class="email">
+            <ul>
+                <li>
+                    <span>Nguyen Vu Linh</span>
+                    <a href="#">s3999487@rmit.edu.vn</a>
+                </li>
+                <li>
+                    <span>Le Nguyen Quan Khanh</span>
+                    <a href="#">s4065608@rmit.edu.vn</a>
+                </li>
+                <li>
+                    <span>Le Tran Quoc Bao</span>
+                    <a href="#">s4072447@rmit.edu.vn</a>
+                </li>
+                <li>
+                    <span>Luu Van Nghia</span>
+                    <a href="#">s3986517@rmit.edu.vn</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+    
+    
+    
+
+
+</body>
+</html>
